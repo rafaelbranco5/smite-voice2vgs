@@ -1,3 +1,5 @@
+using System.Speech.Recognition;
+
 namespace smite_voice2vgs
 {
     public partial class Form1 : Form
@@ -5,6 +7,11 @@ namespace smite_voice2vgs
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
