@@ -47,6 +47,7 @@ namespace smite_voice2vgs
             this.logBox.Size = new System.Drawing.Size(583, 275);
             this.logBox.TabIndex = 0;
             this.logBox.Text = "";
+            this.logBox.TextChanged += new System.EventHandler(this.logBox_TextChanged);
             // 
             // btn_enable
             // 
@@ -58,6 +59,7 @@ namespace smite_voice2vgs
             this.btn_enable.TabIndex = 1;
             this.btn_enable.Text = "Enable Voice2VGS";
             this.btn_enable.UseVisualStyleBackColor = false;
+            this.btn_enable.Click += new System.EventHandler(this.btn_enable_Click);
             // 
             // btn_disable
             // 
@@ -69,6 +71,7 @@ namespace smite_voice2vgs
             this.btn_disable.TabIndex = 2;
             this.btn_disable.Text = "Disable Voice2VGS";
             this.btn_disable.UseVisualStyleBackColor = false;
+            this.btn_disable.Click += new System.EventHandler(this.btn_disable_Click);
             // 
             // label1
             // 
