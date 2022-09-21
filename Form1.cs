@@ -42,6 +42,7 @@ namespace smite_voice2vgs
             string[] result =
                 {"attack left lane", "attack middle lane", "attack right lane", "attack fire giant", "attack gold fury", "attack the titan", "attack left tower", "attack middle tower", "attack right tower",
                 "enemies in left lane", "enemies in middle lane", "enemies in right lane", "enemy ultimate incoming", "enemies have returned to base", "enemy ultimate down", "enemies behind us", "enemies at the fire giant", "enemies at the gold fury", "enemies in the left jungle", "enemies in the right jungle", "enemies in the jungle", "enemies at our titan", "enemy spotted",
+                "be careful left", "be careful middle", "be careful right", "return to base", "careful", "be careful in the jungle",
                 };
             
             return result;
