@@ -49,6 +49,7 @@ namespace smite_voice2vgs
                 "help middle lane", "help left lane", "help right lane", "need healing", "help",
                 "enemies incoming left", "enemies incoming middle", "enemies incoming right", "incoming left", "incoming middle", "incoming right",
                 "ward left", "waard middle", "ward right", "ward fire giant", "ward gold fury", "need wards", "waard here",
+                "retreat left lane", "retreat middle lane", "retreat right lane", "retreat from the jungle", "save your self",
                 };
             
             return result;
