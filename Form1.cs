@@ -47,6 +47,7 @@ namespace smite_voice2vgs
                 "enemy missign left", "enemy missign middle", "enemy missign right", "enemy missign",
                 "gank left lane", "gank middle lane", "gank right lane",
                 "help middle lane", "help left lane", "help right lane", "need healing", "help",
+                "enemies incoming left", "enemies incoming middle", "enemies incoming right", "incoming left", "incoming middle", "incoming right",
                 };
             
             return result;
