@@ -17,7 +17,7 @@ namespace smite_voice2vgs
             Choices choices = new Choices();
             choices.Add(createVGSLibrary());
             GrammarBuilder grammarBuilder = new GrammarBuilder();
-            grammarBuilder.Append(grammarBuilder);
+            grammarBuilder.Append(choices);
             Grammar grammar = new Grammar(grammarBuilder);
 
         }
@@ -53,6 +53,11 @@ namespace smite_voice2vgs
                 };
             
             return result;
+        }
+
+        private void txtbox_keybind_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
