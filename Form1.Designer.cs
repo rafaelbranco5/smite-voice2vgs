@@ -37,6 +37,8 @@ namespace smite_voice2vgs
             this.btn_enable = new System.Windows.Forms.Button();
             this.btn_disable = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtbox_keybind = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // logBox
@@ -83,12 +85,35 @@ namespace smite_voice2vgs
             this.label1.TabIndex = 3;
             this.label1.Text = "-Log Box-";
             // 
+            // txtbox_keybind
+            // 
+            this.txtbox_keybind.Font = new System.Drawing.Font("Centaur", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txtbox_keybind.Location = new System.Drawing.Point(564, 3);
+            this.txtbox_keybind.Name = "txtbox_keybind";
+            this.txtbox_keybind.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtbox_keybind.Size = new System.Drawing.Size(31, 30);
+            this.txtbox_keybind.TabIndex = 4;
+            this.txtbox_keybind.Text = "v";
+            this.txtbox_keybind.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Centaur", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Location = new System.Drawing.Point(447, 6);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 23);
+            this.label2.TabIndex = 5;
+            this.label2.Text = "VGS Keybing:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.AppWorkspace;
             this.ClientSize = new System.Drawing.Size(606, 396);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtbox_keybind);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btn_disable);
             this.Controls.Add(this.btn_enable);
@@ -108,5 +133,7 @@ namespace smite_voice2vgs
         private Button btn_enable;
         private Button btn_disable;
         private Label label1;
+        private TextBox txtbox_keybind;
+        private Label label2;
     }
 }
