@@ -95,7 +95,6 @@ namespace smite_voice2vgs
             this.txtbox_keybind.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtbox_keybind.Size = new System.Drawing.Size(31, 30);
             this.txtbox_keybind.TabIndex = 4;
-            this.txtbox_keybind.Text = "V";
             this.txtbox_keybind.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtbox_keybind.TextChanged += new System.EventHandler(this.txtbox_keybind_TextChanged);
             // 
