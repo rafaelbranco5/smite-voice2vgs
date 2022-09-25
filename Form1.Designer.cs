@@ -43,6 +43,7 @@ namespace smite_voice2vgs
             // 
             // logBox
             // 
+            this.logBox.Enabled = false;
             this.logBox.Font = new System.Drawing.Font("Centaur", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.logBox.Location = new System.Drawing.Point(12, 35);
             this.logBox.Name = "logBox";

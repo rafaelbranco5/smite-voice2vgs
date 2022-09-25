@@ -1,3 +1,4 @@
+using SpeechLib;
 using System.Collections.Generic;
 using System.Speech.Recognition;
 
@@ -20,21 +21,36 @@ namespace smite_voice2vgs
             grammarBuilder.Append(choices);
             Grammar grammar = new Grammar(grammarBuilder);
 
+            speechRecognizer.LoadGrammarAsync(grammar);
+            speechRecognizer.SetInputToDefaultAudioDevice();
+
+            speechRecognizer.SpeechRecognized += SpeechRecognizer_SpeechRecognized;
+        }
+
+        private void SpeechRecognizer_SpeechRecognized(object? sender, SpeechRecognizedEventArgs e)
+        {
+            string[] vgs = createVGSLibrary();
+            if (vgs.Contains(e.Result.Text))
+            {
+                logBox.Text += e.Result.Text;
+            }
         }
 
         private void btn_disable_Click(object sender, EventArgs e)
         {
-
+            speechRecognizer.RecognizeAsyncStop();
+            btn_disable.Enabled = false;
         }
 
         private void btn_enable_Click(object sender, EventArgs e)
         {
-
+            speechRecognizer.RecognizeAsync(RecognizeMode.Multiple);
+            btn_disable.Enabled = true;
         }
 
         private void logBox_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private static string[] createVGSLibrary()
@@ -50,7 +66,7 @@ namespace smite_voice2vgs
                 "enemies incoming left", "enemies incoming middle", "enemies incoming right", "incoming left", "incoming middle", "incoming right",
                 "ward left", "waard middle", "ward right", "ward fire giant", "ward gold fury", "need wards", "waard here",
                 "retreat left lane", "retreat middle lane", "retreat right lane", "retreat from the jungle", "save your self",
-                };
+                ""};
             
             return result;
         }
