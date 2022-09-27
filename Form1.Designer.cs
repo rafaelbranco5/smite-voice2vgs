@@ -92,6 +92,7 @@ namespace smite_voice2vgs
             this.txtbox_keybind.Location = new System.Drawing.Point(564, 3);
             this.txtbox_keybind.MaxLength = 1;
             this.txtbox_keybind.Name = "txtbox_keybind";
+            this.txtbox_keybind.PlaceholderText = "V";
             this.txtbox_keybind.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.txtbox_keybind.Size = new System.Drawing.Size(31, 30);
             this.txtbox_keybind.TabIndex = 4;
@@ -120,7 +121,7 @@ namespace smite_voice2vgs
             this.Controls.Add(this.btn_disable);
             this.Controls.Add(this.btn_enable);
             this.Controls.Add(this.logBox);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "SMITE - Voice 2 VGS";
             this.Load += new System.EventHandler(this.Form1_Load);
