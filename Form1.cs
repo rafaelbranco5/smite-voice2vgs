@@ -83,7 +83,7 @@ namespace smite_voice2vgs
 
         private string[] createVGSLibrary()
         {
-            List<string> result = new List<string>();
+            ICollection<string> result = vgs.Keys;
             
             using (var csv = new CsvReader(new StreamReader(".\\commands.csv"), CultureInfo.InvariantCulture))
             {
@@ -92,7 +92,6 @@ namespace smite_voice2vgs
                 while(csv.Read())
                 {
                     vgs.Add(csv.GetField("Test"), csv.GetField("PC"));
-                    result.Append(csv.GetField("Test"));
                 }
             }
 

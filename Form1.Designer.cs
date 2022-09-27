@@ -121,7 +121,7 @@ namespace smite_voice2vgs
             this.Controls.Add(this.btn_disable);
             this.Controls.Add(this.btn_enable);
             this.Controls.Add(this.logBox);
-            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "SMITE - Voice 2 VGS";
             this.Load += new System.EventHandler(this.Form1_Load);
