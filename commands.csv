@@ -1,183 +1,207 @@
-Text;PC
-Attack left lane;VA1
-Attack middle lane;VA2
-Attack right lane;VA3
-Attack;VAA
-Attack Fire Giant;VAF
-Attack the Gold Fury;VAG
-Attack the Titan;VAM
-Attack left phoenix;VAT1
-Attack left tower;VAT1
-Attack middle phoenix;VAT2
-Attack middle tower;VAT2
-Attack right phoenix;VAT3
-Attack right tower;VAT3
-Enemies in left lane;VB1
-Enemies in middle lane;VB2
-Enemies in right lane;VB3
-Enemy ultimate incoming;VBA
-Enemies have returned to base.;VBB
-Enemy ultimate down;VBD
-Enemies behind us;VBE
-Enemies at the Fire Giant;VBF
-Enemies at the Gold Fury;VBG
-Enemies in the Left Jungle;VBJ1
-Enemies in the right jungle;VBJ3
-Enemies in the jungle;VBJJ
-Enemies at our Titan;VBM
-Enemy spotted;VBS
-Be careful left;VC1
-Be careful middle;VC2
-Be careful right;VC3
-Return to base;VCB
-Be careful;VCC
-Be careful in the jungle;VCJ
-Defend left lane;VD1
-Defend middle lane;VD2
-Defend right lane;VD3
-Defend;VDD
-Defend the Fire Giant;VDF
-Defend the Gold Fury;VDG
-Defend the Titan;VDM
-Awesome;VEA
-Greatest;VEG
-Joke;VEJ
-Laugh;VEL
-You rock;VER
-Taunt;VET
-Woohoo;VEW
-Enemy missing left;VF1
-Enemy missing middle;VF2
-Enemy missing right;VF3
-Enemy missing;VFF
-Gank left lane;VG1
-Gank middle lane;VG2
-Gank right lane;VG3
-Gank;VGG
-Help left lane;VH1
-Help middle lane;VH2
-Help right lane;VH3
-Help;VHH
-Need Healing;VHS
-Enemies incoming left;VI1
-Enemies incoming middle;VI2
-Enemies incoming right;VI3
-Enemies incoming;VII
-Ward Left;VQ1
-Ward middle;VQ2
-Ward Right;VQ3
-Ward Fire Giant;VQF
-Ward Gold Fury;VQG
-Need Wards;VQN
-Ward Here;VQQ
-Retreat left lane;VR1
-Retreat middle lane;VR2
-Retreat right lane;VR3
-Retreat from the Jungle;VRJ
-Retreat;VRR
-Save yourself;VRS
-Enemies have returned left;VT1
-Enemies have returned middle;VT2
-Enemies have returned right;VT3
-Enemies have returned;VTT
-Ok;VVA
-Be right back;VVB
-Completed;VVC
-Bye;VVGB
-Have fun;VVGF
-Good game;VVGG
-Hi;VVGH
-Good luck;VVGL
-Nice Job;VVGN
-Oops;VVGO
-Quiet;VVGQ
-No Problem;VVGR
-Curses;VVGS
-That's too bad;VVGT
-You're welcome;VVGW
-Stepping away for a moment.;VVK
-Out of mana;VVM
-No;VVN
-Please?;VVP
-Sorry;VVS
-Thanks;VVT
-Set up an ambush here;VVVA
-Behind us;VVVB
-Chase the enemy;VVVC
-Ultimate is down;VVVD
-On my way;VVVE
-Follow me;VVVF
-Group up;VVVG
-Going into the jungle;VVVJ
-Split push;VVVP
-Ultimate is ready;VVVR
-Stay here;VVVS
-It's a trap;VVVT
-Place a Ward for teleport;VVVW
-Spread Out;VVVX
-Wait;VVW
-Cancel that;VVX
-Yes;VVY
-I'll Attack left lane;VSA1
-I will attack left lane;VSA1
-I'll Attack middle lane;VSA2
-I will attack middel lane;VSA2
-I'll Attack right lane;VSA3
-I will attack right lane;VSA3
-I'll Attack;VSAA
-I will attack;VSAA
-I'll Attack Fire Giant;VSAF
-I will attack giant;VSAF
-I'll Attack the Gold Fury;VSAG
-I will attack the gold fury;VSAG
-I'll Attack the Titan;VSAM
-I will attack the titan;VSAM
-I'm going for jungle buff;VSBB
-i am going for jungle buff;VSBB
-I need the jungle buff.;VSBN
-Take this jungle buff.;VSBT
-I'll defend left lane;VSD1
-i will defend left lane;VSD1
-I'll defend middle lane;VSD2
-i will defend middle lane;VSD2
-I'll defend right lane;VSD3
-i will defend right lane;VSD3
-I'll defend;VSDD
-i will defend ;VSDD
-I'll defend the Fire Giant;VSDF
-i will defend the fire giant;VSDF
-I'll defend the Gold Fury;VSDG
-i will defend the gold fury;VSDG
-I'll defend the Titan;VSDM
-i will defend the titan;VSDM
-I'll gank left lane;VSG1
-i will gank left lane;VSG1
-I'll gank middle lane;VSG2
-i will gank middle lane;VSG2
-I'll gank right lane;VSG3
-i ill gank right lane;VSG3
-I'll gank;VSGG
-i will gank;VSGG
-I'm on it;VSO
-i am on it;VSO
-I will ward left;VSQ1
-I'll ward left;VSQ1
-I will ward middle;VSQ2
-I'll ward middle;VSQ2
-I will ward right;VSQ3
-I'll ward right;VSQ3
-I will ward;VSQQ
-I'll ward;VSQQ
-Falling back;VSR
-I'm building Stacks;VSS
-i am building stacks;VSS
-I'm returning left lane;VST1
-I am returnig left lane;VST1
-I'm returning middle lane;VST2
-I am returning middle lane;VST2
-I'm returning right lane;VST3
-I am returning right lane;VST3
-I'm returning to base;VSTB
-I am returning to base;VSTB
-I have returned;VSTT
-I've returned;VSTT
+Text,PC
+Attack left lane,A1
+Attack left,A1
+Attack middle lane,A2
+Attack middle,A2
+Attack right lane,A3
+Attack right,A3
+Attack Fire Giant,AF
+Attack the Gold Fury,AG
+Attack the Titan,AM
+Attack left phoenix,AT1
+Attack left tower,AT1
+Attack middle phoenix,AT2
+Attack middle tower,AT2
+Attack right phoenix,AT3
+Attack right tower,AT3
+Enemies in left lane,B1
+Enemies left lane,B1
+Enemies in middle lane,B2
+Enemies middle lane,B2
+Enemies in right lane,B3
+Enemies rigth lane,B3
+Enemy ultimate incoming,BA
+Enemies have returned to base.,BB
+Enemy ultimate down,BD
+Enemies behind us,BE
+Behind us,BE
+Enemies at the Fire Giant,BF
+Enemies at the Gold Fury,BG
+Enemies in the Left Jungle,BJ1
+Enemies in the right jungle,BJ3
+Enemies in the jungle,BJJ
+Enemies at our Titan,BM
+Enemy spotted,BS
+Be careful left,C1
+Careful left,C1
+Be careful middle,C2
+Careful middle,C2
+Be careful right,C3
+Careful right,C3
+Return to base,CB
+Be careful in the jungle,CJ
+Carfule in the jungle,CJ
+Defend left lane,D1
+Defend left,D1
+Defend middle lane,D2
+Defend middle,D2
+Defend right lane,D3
+defend right,D3
+Defend,DD
+Defend the Fire Giant,DF
+Defend the Gold Fury,DG
+Defend the Titan,DM
+Awesome,EA
+Greatest,EG
+Joke,EJ
+Laugh,EL
+You rock,ER
+Taunt,ET
+Woohoo,EW
+Enemy missing left,F1
+Missing left,F1
+Enemy missing middle,F2
+Missing middle,F2
+Enemy missing right,F3
+Missing right,F3
+Enemy missing,FF
+Gank left lane,G1
+Gank middle lane,G2
+Gank right lane,G3
+Gank,GG
+Help left lane,H1
+Help middle lane,H2
+Help right lane,H3
+Help,HH
+Need Healing,HS
+Enemies incoming left,I1
+Incoming left,I1
+Enemies incoming middle,I2
+Incoming middle,I2
+Enemies incoming right,I3
+Incoming right,I3
+Enemies incoming,II
+Ward Left,Q1
+Ward middle,Q2
+Ward Right,Q3
+Ward Fire Giant,QF
+Ward Gold Fury,QG
+Need Wards,QN
+Ward Here,QQ
+Retreat left lane,R1
+Retreat left,R1
+Retreat middle lane,R2
+Retreat middle,R2
+Retreat right lane,R3
+Retreat right,R3
+Retreat from the Jungle,RJ
+Retreat,RR
+Save yourself,RS
+Enemies have returned left,T1
+Enemies have returned middle,T2
+Enemies have returned right,T3
+Enemies have returned,TT
+Ok,VA
+Be right back,VB
+Completed,VC
+Bye,VGB
+Have fun,VGF
+Good game,VGG
+Hi,VGH
+Good luck,VGL
+Nice Job,VGN
+Oops,VGO
+Quiet,VGQ
+No Problem,VGR
+Curses,VGS
+That's too bad,VGT
+You're welcome,VGW
+Stepping away for a moment.,VK
+Out of mana,VM
+No,VN
+Please?,VP
+Sorry,VS
+Thanks,VT
+Set up an ambush here,VVA
+Behind us,VVB
+Chase the enemy,VVC
+Ultimate is down,VVD
+On my way,VVE
+Follow me,VVF
+Group up,VVG
+Going into the jungle,VVJ
+Split push,VVP
+Ultimate is ready,VVR
+My ultimate is ready,VVR
+My ult is up,VVR
+My ultimate is up,VVR
+Stay here,VVS
+It's a trap,VVT
+Place a Ward for teleport,VVW
+Spread Out,VVX
+Wait,VW
+Cancel that,VX
+Yes,VY
+I'll Attack left lane,SA1
+I will attack left lane,SA1
+I'll Attack middle lane,SA2
+I will attack middel lane,SA2
+I'll Attack right lane,SA3
+I will attack right lane,SA3
+I'll Attack,SAA
+I will attack,SAA
+I'll Attack Fire Giant,SAF
+I will attack giant,SAF
+I'll Attack the Gold Fury,SAG
+I will attack the gold fury,SAG
+I'll Attack the Titan,SAM
+I will attack the titan,SAM
+I'm going for jungle buff,SBB
+i am going for jungle buff,SBB
+I need the jungle buff.,SBN
+Take this jungle buff.,SBT
+I'll defend left lane,SD1
+i will defend left lane,SD1
+I'll defend middle lane,SD2
+i will defend middle lane,SD2
+I'll defend right lane,SD3
+i will defend right lane,SD3
+I'll defend,SDD
+i will defend ,SDD
+I'll defend the Fire Giant,SDF
+i will defend the fire giant,SDF
+I'll defend the Gold Fury,SDG
+i will defend the gold fury,SDG
+I'll defend the Titan,SDM
+i will defend the titan,SDM
+I'll gank left lane,SG1
+i will gank left lane,SG1
+I'll gank middle lane,SG2
+i will gank middle lane,SG2
+I'll gank right lane,SG3
+i ill gank right lane,SG3
+I'll gank,SGG
+i will gank,SGG
+I'm on it,SO
+i am on it,SO
+I will ward left,SQ1
+I'll ward left,SQ1
+I will ward middle,SQ2
+I'll ward middle,SQ2
+I will ward right,SQ3
+I'll ward right,SQ3
+I will ward,SQQ
+I'll ward,SQQ
+Falling back,SR
+I'm building Stacks,SS
+i am building stacks,SS
+I'm returning left lane,ST1
+I am returnig left lane,ST1
+I'm returning middle lane,ST2
+I am returning middle lane,ST2
+I'm returning right lane,ST3
+I am returning right lane,ST3
+I'm returning to base,STB
+I am returning to base,STB
+I have returned,STT
+I've returned,STT

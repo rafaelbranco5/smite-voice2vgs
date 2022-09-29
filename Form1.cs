@@ -46,11 +46,10 @@ namespace smite_voice2vgs
 
         private void SpeechRecognizer_SpeechRecognized(object? sender, SpeechRecognizedEventArgs e)
         {
-            string[] vgs = createVGSLibrary();
-            if (vgs.Contains(e.Result.Text))
+            if (vgs.ContainsKey(e.Result.Text))
             {
-                logBox.Text += "\n" + DateTime.Now + ": " + e.Result.Text + " - " + vgsKeybind + "A3";
-                SendKeys.Send(vgsKeybind + "A1");
+                logBox.Text += DateTime.Now + ": " + e.Result.Text + " - " + vgsKeybind + vgs[e.Result.Text] + "\n";
+                SendKeys.Send(vgsKeybind + vgs[e.Result.Text]);
             }
         }
 
@@ -85,13 +84,13 @@ namespace smite_voice2vgs
         {
             ICollection<string> result = vgs.Keys;
             
-            using (var csv = new CsvReader(new StreamReader(".\\commands.csv"), CultureInfo.InvariantCulture))
+            using (var csv = new CsvReader(new StreamReader("S:\\commands.csv"), CultureInfo.InvariantCulture))
             {
                 csv.Read();
                 csv.ReadHeader();
                 while(csv.Read())
                 {
-                    vgs.Add(csv.GetField("Test"), csv.GetField("PC"));
+                    vgs.Add(csv.GetField("Text"), csv.GetField("PC"));
                 }
             }
 
